@@ -2,21 +2,20 @@
   {
     "Transaction ID": "TXN001",
     "Extracted Entity": [
-      "CIMEX",
+      "SovCo Capital Partners",
       "Acme Corp"
     ],
     "Entity Type": [
       "Corporation",
       "Corporation"
     ],
-    "Risk Score": 0.12,
-    "Confidence Score": 0.62,
+    "Risk Score": 0.05,
+    "Confidence Score": 0.55,
     "Supporting Evidence": [
       "DuckDuckGo",
-      "Wikidata",
-      "Wikipedia"
+      "Wikidata"
     ],
-    "Reason": "CIMEX: species of insect. Cimex is a genus of insects in the family Cimicidae. Cimex species are ectoparasites that typically feed on the blood of birds and mammals. Two species, Cimex lectularius and Cimex hemipterus, are known as bed bugs and frequently feed on humans, although other species may parasitize humans opportunistically. Species that primarily parasitize bats are known as bat bugs. The insects are 3 to 9 millimetres long and have flattened reddish-brown bodies with small nonfunctional wings.. Corporaci\u00f3n CIMEX S.A. is a state-owned conglomerate in Cuba involved in the import and export of goods, as well as tourism and banking. It has been called Cuba's largest commercial operation, and is headed by Colonel H\u00e9ctor Oroza Busutil. It has since been absorbed by the military consortium GAESA.. Acme Corp: fictional company. The Acme Corporation is a fictional corporation that features prominently in the Road Runner/Wile E. Coyote animated shorts as a running gag. The company manufactures outlandish products that fail or backfire catastrophically at the worst possible times. The name is also used as a generic title in many cartoons, especially those made by Warner Bros., as well as films, TV series, commercials and comic strips.."
+    "Reason": "SovCo Capital Partners has no major references or news. Acme Corp: fictional company. The Acme Corporation is a fictional corporation that features prominently in the Road Runner/Wile E. Coyote animated shorts as a running gag. The company manufactures outlandish products that fail or backfire catastrophically at the worst possible times. The name is also used as a generic title in many cartoons, especially those made by Warner Bros., as well as films, TV series, commercials and comic strips.."
   },
   {
     "Transaction ID": "TXN002",
@@ -31,91 +30,76 @@
     "Risk Score": 0.07,
     "Confidence Score": 0.57,
     "Supporting Evidence": [
+      "Wikipedia",
       "DuckDuckGo",
-      "Wikidata",
-      "Wikipedia"
+      "Wikidata"
     ],
     "Reason": "Save the Children: London-based international non-profit organization. The Save the Children Fund, commonly known as Save the Children, is an international non-governmental organization. It was founded in the UK in 1919; its goal is to improve the lives of children worldwide. The organization raises money to improve children's lives by creating better educational opportunities, better health care, and improved economic opportunities. It achieves this through several methods, including health, education, and protection programs. The organization has general consultative status in the United Nations Economic and Social Council.. The Save the Children Fund, commonly known as Save the Children, is an international non-governmental organization. It was founded in the UK in 1919; its goal is to improve the lives of children worldwide.. Global Health Foundation has no major references or news."
   },
   {
     "Transaction ID": "TXN003",
     "Extracted Entity": [
-      "Citi Bank",
-      "Wells Fargo"
+      "XYZ Ltd",
+      "ABC GmbH"
     ],
     "Entity Type": [
       "Corporation",
       "Corporation"
     ],
-    "Risk Score": 0.12,
-    "Confidence Score": 0.62,
-    "Supporting Evidence": [
-      "DuckDuckGo",
-      "Wikidata",
-      "Wikipedia"
-    ],
-    "Reason": "Citi Bank: bank in India. Citibank, N.A. is the primary U.S. banking subsidiary of Citigroup, a financial services multinational corporation. Citibank was founded in 1812 as City Bank of New York, and later became First National City Bank of New York. The bank has branches in 19 countries. The U.S. branches are concentrated in six metropolitan areas, New York City, Chicago, Los Angeles, San Francisco, Washington, D.C., and Miami. As of 2023, Citibank is the third-largest bank in the United States in terms of assets.. Citibank, N.A. is the primary U.S. banking subsidiary of Citigroup, a financial services multinational corporation. Citibank was founded in 1812 as City Bank of New York, and later became First National City Bank of New York. The bank has branches in 19 countries. The U.S. branches are concentrated in six metropolitan areas, New York City, Chicago, Los Angeles, San Francisco, Washington, D.C., and Miami.. Wells Fargo: American multinational banking and financial services company. Wells Fargo & Company is an American multinational financial services company with a significant global presence. The company operates in 35 countries and serves over 70 million customers worldwide. It is a systemically important financial institution according to the Financial Stability Board, and is considered one of the \"Big Four Banks\" in the United States, alongside JPMorgan Chase, Bank of America, and Citigroup.."
+    "Risk Score": 0.0,
+    "Confidence Score": 0.5,
+    "Supporting Evidence": [],
+    "Reason": "XYZ Ltd has no major references or news. ABC GmbH has no major references or news."
   },
   {
     "Transaction ID": "TXN004",
     "Extracted Entity": [
-      "Amazon",
-      "NVIDIA"
+      "CCMI",
+      "Green Earth Org"
     ],
     "Entity Type": [
-      "Sanctioned Entity",
-      "Sanctioned Entity"
+      "Corporation",
+      "NGO"
     ],
-    "Risk Score": 0.17,
-    "Confidence Score": 0.68,
+    "Risk Score": 0.03,
+    "Confidence Score": 0.53,
     "Supporting Evidence": [
-      "Wayback",
-      "Wikidata",
-      "DuckDuckGo",
-      "Wikipedia"
+      "Wikidata"
     ],
-    "Reason": "Amazon: American multinational technology company. Found snapshot in Wayback. Amazon most often refers to:Amazon River, in South America Amazon rainforest, a rainforest covering most of the Amazon basin Amazon (company), an American multinational technology company Amazon Prime Video, an American video streaming service Amazons, a tribe of female warriors in Greek mythology. NVIDIA: American multinational technology company. Nvidia Corporation is an American multinational corporation and technology company headquartered in Santa Clara, California, and incorporated in Delaware. Founded in 1993 by Jensen Huang, Chris Malachowsky, and Curtis Priem, it is a company which designs and supplies graphics processing units, application programming interfaces for data science and high-performance computing, and system on a chip units for mobile computing and the automotive market. Nvidia is also a leading supplier of artificial intelligence hardware and software. Nvidia outsources the manufacturing of the hardware it designs. Nvidia's professional line of GPUs are used for edge-to-cloud computing and in supercomputers and workstations for applications in fields such as architecture, engineering and construction, media and entertainment, automotive, scientific research, and manufacturing design.. Found snapshot in Wayback. Nvidia Corporation is an American multinational corporation and technology company headquartered in Santa Clara, California, and incorporated in Delaware. Founded in 1993 by Jensen Huang, Chris Malachowsky, and Curtis Priem, it is a company which designs and supplies graphics processing units (GPUs), application programming interfaces (APIs) for data science and high-performance computing, and system on a chip units (SoCs) for mobile computing and the automotive market. Nvidia is also a leading supplier of artificial intelligence (AI) hardware and software. Nvidia outsources the manufacturing of the hardware it designs.."
+    "Reason": "CCMI: microbial protein found in Shewanella oneidensis MR-1. Green Earth Org has no major references or news."
   },
   {
     "Transaction ID": "TXN005",
     "Extracted Entity": [
-      "Microsoft",
-      "Apple"
+      "Alas Chiracanas",
+      "Oceanic Holdings LLC"
     ],
     "Entity Type": [
-      "Corporation",
-      "Sanctioned Entity"
+      "Sanctioned Entity",
+      "Corporation"
     ],
-    "Risk Score": 0.23,
-    "Confidence Score": 0.62,
-    "Supporting Evidence": [
-      "DuckDuckGo",
-      "Wikidata",
-      "Wikipedia"
-    ],
-    "Reason": "Microsoft: American multinational technology corporation. Microsoft Corporation is an American multinational technology conglomerate headquartered in Redmond, Washington. Founded in 1975, the company became highly influential in the rise of personal computers through software like Windows, and the company has since expanded to Internet services, cloud computing, video gaming and other fields. Microsoft is the largest software maker, one of the most valuable public U.S. companies, and one of the most valuable brands globally. Microsoft was founded by Bill Gates and Paul Allen to develop and sell BASIC interpreters for the Altair 8800. It rose to dominate the personal computer operating system market with MS-DOS in the mid-1980s, followed by Windows. During the 41 years from 1980 to 2021 Microsoft released 9 versions of MS-DOS with a median frequency of 2 years, and 13 versions of Windows with a median frequency of 3 years.. Microsoft Corporation is an American multinational technology conglomerate headquartered in Redmond, Washington. Founded in 1975, the company became highly influential in the rise of personal computers through software like Windows, and the company has since expanded to Internet services, cloud computing, video gaming and other fields. Microsoft is the largest software maker, one of the most valuable public U.S. companies, and one of the most valuable brands globally.. Apple: American multinational technology company based in Cupertino, California. An apple is a round, edible fruit produced by an apple tree. Fruit trees of the orchard or domestic apple, the most widely grown in the genus, are cultivated worldwide. The tree originated in Central Asia, where its wild ancestor, Malus sieversii, is still found. Apples have been grown for thousands of years in Eurasia before they were introduced to North America by European colonists. Apples have cultural significance in many mythologies and religions.. Transaction TXN005 flagged as anomalous => +0.1 risk."
+    "Risk Score": 0.1,
+    "Confidence Score": 0.5,
+    "Supporting Evidence": [],
+    "Reason": "Alas Chiracanas has no major references or news. Oceanic Holdings LLC has no major references or news. Transaction TXN005 flagged as anomalous => +0.1 risk."
   },
   {
     "Transaction ID": "TXN-2023-5A9B",
     "Extracted Entity": [
-      "Exxon Mobil",
-      "Saudi Aramco",
+      "Bright Future Nonprofit Inc",
       "Quantum Holdings Ltd",
+      "Global Horizons Consulting LLC",
       "Ali Al-Mansoori"
     ],
     "Entity Type": [
-      "Corporation",
-      "Corporation",
+      "Non-Profit",
       "PEP",
+      "Non-Profit",
       "Individual"
     ],
-    "Risk Score": 0.07,
-    "Confidence Score": 0.57,
-    "Supporting Evidence": [
-      "DuckDuckGo",
-      "Wikidata",
-      "Wikipedia"
-    ],
-    "Reason": "Exxon Mobil: American multinational oil and gas corporation. Exxon Mobil Corporation is an American multinational oil and gas corporation headquartered in Spring, Texas, a suburb of Houston. Founded as the largest direct successor of John D. Rockefeller's Standard Oil, the modern company was formed in 1999 following the merger of Exxon and Mobil. It is vertically integrated across the entire oil and gas industry, as well as within its chemicals division, which produces plastic, synthetic rubber, and other chemical products. As the largest U.S.-based oil and gas company, ExxonMobil is the seventh-largest company by revenue in the U.S. and 13th-largest in the world. It is the largest investor-owned oil company in the world. Approximately 55.56% of the company's shares are held by institutions, the largest of which as of 2019 were The Vanguard Group, BlackRock, and State Street Corporation.. Exxon Mobil Corporation is an American multinational oil and gas corporation headquartered in Spring, Texas, a suburb of Houston. Founded as the largest direct successor of John D. Rockefeller's Standard Oil, the modern company was formed in 1999 following the merger of Exxon and Mobil. It is vertically integrated across the entire oil and gas industry, as well as within its chemicals division, which produces plastic, synthetic rubber, and other chemical products. As the largest U.S.-based oil and gas company, ExxonMobil is the seventh-largest company by revenue in the U.S. and 13th-largest in the world. It is the largest investor-owned oil company in the world. Approximately 55.56% of the company's shares are held by institutions, the largest of which as of 2019 were The Vanguard Group (8.15%), BlackRock (6.61%), and State Street Corporation (4.83%).. Saudi Aramco: Saudi Arabian state-owned petroleum company. Saudi Aramco, officially the Saudi Arabian Oil Company or simply Aramco, is a majority state-owned petroleum and natural gas company that is the national oil company of Saudi Arabia. As of 2024, it is the fourth-largest company in the world by revenue and is headquartered in Dhahran. Saudi Aramco has both the world's second-largest proven crude oil reserves, at more than 270 billion barrels, and largest daily oil production of all oil-producing companies. Saudi Aramco operates the world's largest single hydrocarbon network, the Master Gas System. In 2024, its oil production total was 12.7 million barrels of oil equivalent per day, and it manages over one hundred oil and gas fields in Saudi Arabia, including 288.4 trillion standard cubic feet of natural gas reserves. Along the Eastern Province, Saudi Aramco most notably operates the Ghawar Field and the Safaniya Field. On 11 December 2019, the company's shares commenced trading on the Saudi Exchange.. Saudi Aramco or Aramco, officially the Saudi Arabian Oil Company, is a majority state-owned petroleum and natural gas company that is the national oil company of Saudi Arabia. As of 2024, it is the fourth-largest company in the world by revenue and is headquartered in Dhahran. Saudi Aramco has both the world's second-largest proven crude oil reserves, at more than 270 billion barrels, and largest daily oil production of all oil-producing companies.. Quantum Holdings Ltd has no major references or news. Ali Al-Mansoori has no major references or news."
+    "Risk Score": 0.0,
+    "Confidence Score": 0.5,
+    "Supporting Evidence": [],
+    "Reason": "Bright Future Nonprofit Inc has no major references or news. Quantum Holdings Ltd has no major references or news. Global Horizons Consulting LLC has no major references or news. Ali Al-Mansoori has no major references or news."
   }
 ]
