@@ -14,11 +14,32 @@
 ---
 
 ## 🎯 Introduction
-A brief overview of your project and its purpose. Mention which problem statement are your attempting to solve. Keep it concise and engaging.
+Technology Hackathon
 
+### Al-Driven Entity Intelligence Risk Analysis
+
+Challenge Overview
+
+Develop a sophisticated Generative AI/ML powered system that automates the research and evidence-gathering process for identifying, verifying, and risk-scoring entities (corporations, non-profits, shell companies, and financial intermediaries) from complex, multi-source transaction data. The solution should significantly reduce manual effort for data analysts, improve accuracy, and provide a robust risk evaluation mechanism.
+
+Problem Statement:
+
+Currently, data analysts spend significant manual effort analyzing party names from transaction details to determine the correct entities involved. This process becomes even more challenging when dealing with corporations, non-profits, and potential shell companies due to naming inconsistencies, abbreviations, fraudulent entities, and lack of structured information. The goal of this challenge is to build an Al-driven system that:
+
+Extracts entity names from unstructured and structured transaction data.
+
+Enriches the extracted names with publicly available data (e.g., company
+
+registries, online sources, financial news, regulatory filings, and legal databases). Identifies potential fraudulent or high-risk entities through anomaly detection.
+
+Classifies entities into categories (corporation, non-profit, shell company, government agency, etc.).
+
+Assigns a risk score based on entity attributes, and associated networks (business/sectors associated with the entities).
+
+Provides supporting evidence and confidence scores to assist analysts in decision- making.
 ## 🎥 Demo
 🔗 [Live Demo](#) (if applicable)  
-📹 [Video Demo](#) (if applicable)  
+📹 [Video Demo](./artifacts/arch/video_1.mp4) (Added Video)  
 
 🖼️ Screenshots:
 
@@ -29,7 +50,9 @@ A brief overview of your project and its purpose. Mention which problem statemen
 ![Screenshot 1](./artifacts/arch/Screenshot_3.png)
 
 ## 💡 Inspiration
-What inspired you to create this project? Describe the problem you're solving.
+The idea for this project stems from the increasing complexity of financial transactions and the growing need for AI-driven automation in fraud detection, compliance, and risk assessment. In financial ecosystems, identifying high-risk entities—such as shell companies, fraudulent organizations, and intermediaries—is a major challenge.
+
+Many financial institutions, auditors, and compliance officers still manually analyze transaction data, cross-referencing multiple sources to verify entities. This is not only time-consuming but also error-prone, leading to missed risks or false positives.
 
 ## ⚙️ What It Does
 ### Entity Extraction & Name Resolution
