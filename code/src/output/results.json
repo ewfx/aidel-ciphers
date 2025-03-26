@@ -1,1 +1,144 @@
-[]
+[
+  {
+    "Transaction ID": "TXN001",
+    "Extracted Entity": [
+      "Acme Corp",
+      "SovCo Capital Partners"
+    ],
+    "Entity Type": [
+      "Corporation",
+      "PEP"
+    ],
+    "Risk Score": 0.88,
+    "Confidence Score": 0.88,
+    "Supporting Evidence": [
+      "Wikipedia",
+      "SEC EDGAR",
+      "Wikidata",
+      "OpenSanctions",
+      "Wayback",
+      "Clearbit",
+      "DuckDuckGo",
+      "OFAC"
+    ],
+    "Reason": "fictional company The Acme Corporation is a fictional corporation that features prominently in the Road Runner/Wile E. Coyote animated shorts as a running gag. The company manufactures outlandish products that fail or backfire catastrophically at the worst possible times. The name is also used as a generic title in many cartoons, especially those made by Warner Bros., as well as films, TV series, commercials and comic strips. Clearbit matched company: Acme Furniture, domain: acmecorp.com. No history found."
+  },
+  {
+    "Transaction ID": "TXN002",
+    "Extracted Entity": [
+      "Global Health Foundation",
+      "Save the Children"
+    ],
+    "Entity Type": [
+      "NGO",
+      "NGO"
+    ],
+    "Risk Score": 0.88,
+    "Confidence Score": 0.88,
+    "Supporting Evidence": [
+      "Wikipedia",
+      "SEC EDGAR",
+      "Wikidata",
+      "OpenSanctions",
+      "Wayback",
+      "Clearbit",
+      "DuckDuckGo",
+      "OFAC"
+    ],
+    "Reason": "Global Health Foundation has limited public information available from current sources. London-based international non-profit organization The Save the Children Fund, commonly known as Save the Children, is an international non-governmental organization. It was founded in the UK in 1919; its goal is to improve the lives of children worldwide. The Save the Children Fund, commonly known as Save the Children, is an international non-governmental organization. It was founded in the UK in 1919; its goal is to improve the lives of children worldwide. The organization raises money to improve children's lives by creating better educational opportunities, better health care, and improved economic opportunities. It achieves this through several methods, including health, education, and protection programs. The organization has general consultative status in the United Nations Economic and Social Council. Clearbit matched company: Save the Children US, domain: savethechildren.org Snapshot found on Wayback Machine."
+  },
+  {
+    "Transaction ID": "TXN003",
+    "Extracted Entity": [
+      "ABC GmbH",
+      "XYZ Ltd"
+    ],
+    "Entity Type": [
+      "Sanctioned Entity",
+      "Corporation"
+    ],
+    "Risk Score": 0.85,
+    "Confidence Score": 0.85,
+    "Supporting Evidence": [
+      "Wikipedia",
+      "SEC EDGAR",
+      "OpenSanctions",
+      "Wayback",
+      "Clearbit",
+      "DuckDuckGo",
+      "OFAC"
+    ],
+    "Reason": "Clearbit matched company: ABC Armstrong & Bonauer Consulting, domain: abc-gmbh.ch Snapshot found on Wayback Machine. XYZ Ltd has limited public information available from current sources."
+  },
+  {
+    "Transaction ID": "TXN004",
+    "Extracted Entity": [
+      "Green Earth Org"
+    ],
+    "Entity Type": [
+      "PEP"
+    ],
+    "Risk Score": 0.85,
+    "Confidence Score": 0.85,
+    "Supporting Evidence": [
+      "Wikipedia",
+      "SEC EDGAR",
+      "OpenSanctions",
+      "Wayback",
+      "Clearbit",
+      "DuckDuckGo",
+      "OFAC"
+    ],
+    "Reason": "Clearbit matched company: Green Earth Organics, domain: greenearthorganics.ie Snapshot found on Wayback Machine."
+  },
+  {
+    "Transaction ID": "TXN005",
+    "Extracted Entity": [
+      "Alas Chiracanas",
+      "Oceanic Holdings LLC"
+    ],
+    "Entity Type": [
+      "Sanctioned Entity",
+      "PEP"
+    ],
+    "Risk Score": 0.85,
+    "Confidence Score": 0.85,
+    "Supporting Evidence": [
+      "Wikipedia",
+      "SEC EDGAR",
+      "OpenSanctions",
+      "Wayback",
+      "Clearbit",
+      "DuckDuckGo",
+      "OFAC"
+    ],
+    "Reason": "Alas Chiracanas has limited public information available from current sources. No history found Oceanic Holdings LLC is referenced in SEC EDGAR database for offshore financial disclosures."
+  },
+  {
+    "Transaction ID": "TXN-2023-5A9B",
+    "Extracted Entity": [
+      "Bright Future Nonprofit Inc",
+      "Global Horizons Consulting LLC",
+      "Ali Al-Mansoori",
+      "Quantum Holdings Ltd"
+    ],
+    "Entity Type": [
+      "PEP",
+      "PEP",
+      "PEP",
+      "PEP"
+    ],
+    "Risk Score": 0.85,
+    "Confidence Score": 0.85,
+    "Supporting Evidence": [
+      "Wikipedia",
+      "SEC EDGAR",
+      "OpenSanctions",
+      "Wayback",
+      "Clearbit",
+      "DuckDuckGo",
+      "OFAC"
+    ],
+    "Reason": "No history found. No history found. No history found. No history found Quantum Holdings Ltd is referenced in SEC EDGAR database for offshore financial disclosures."
+  }
+]
