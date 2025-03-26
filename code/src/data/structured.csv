@@ -1,0 +1,6 @@
+Transaction ID,Payer Name,Receiver Name,Transaction Details,Amount,Receiver Country
+TXN001,Acme Corp,CIMEX,"Payment for services rendered","$500,000",USA
+TXN002,Global Health Foundation,Save the Children,"Grant disbursement","$2,000,000",UK
+TXN003,Wells Fargo,Citi Bank,"Purchase of office supplies","$15,000",Germany
+TXN004,NVIDIA,Amazon,"Environmental project funding","$750,000","Cayman Islands"
+TXN005,Apple,Microsoft,"Offshore investment","$5,000,000",Panama
