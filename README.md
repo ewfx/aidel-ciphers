@@ -38,8 +38,8 @@ Assigns a risk score based on entity attributes, and associated networks (busine
 
 Provides supporting evidence and confidence scores to assist analysts in decision- making.
 ## 🎥 Demo
-🔗 [Live Demo](#) (if applicable)  
-📹 [Video Demo](./artifacts/demo/AI-Driven Entity Intelligence Risk Analysis_Video.mp4) (Added Video)  
+🔗 [PPT Presentation](./artifacts/demo/AI_Driven_Entity_Intelligence_Risk_Analysis_Video.mp4) (Added PPT)  
+📹 [Video Demo](./artifacts/demo/AI_Driven_Entity_Intelligence_Risk_Analysis_Video.mp4) (Added Video)  
 
 🖼️ Screenshots:
 
