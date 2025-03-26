@@ -1,6 +1,6 @@
 Transaction ID: TXN-2023-5A9B
-Sender: Global Horizons Consulting LLC
-Receiver: Bright Future Nonprofit Inc
+Sender: Saudi Aramco
+Receiver: Exxon Mobil
 Approver: Ali Al-Mansoori
 Intermediary: Quantum Holdings Ltd
 Amount: $49,850
