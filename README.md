@@ -1,4 +1,4 @@
-# 🚀 Project Name
+# 🚀 RiskNova
 
 ## 📌 Table of Contents
 - [Introduction](#introduction)
