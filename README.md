@@ -82,6 +82,7 @@ Functionality:Provides responses in JSON/CSV format with extracted entities, ris
 Programming Languages: Python (Backend & AI/ML), JavaScript (Frontend)
 Machine Learning Frameworks: TensorFlow, PyTorch, Scikit-learn
 Natural Language Processing: NLP
+Large Language Model: LLM
 
 ### Data Extraction & Processing
 Libraries: pandas, NumPy, regex, PyTorch
