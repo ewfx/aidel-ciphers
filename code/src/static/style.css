@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #5fcaff, #faf9f8);
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+    margin: 0;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+#drop-area {
+    border: 2px dashed #007bff;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+    cursor: pointer;
+}
+
+#drop-area:hover {
+    background: #e3f2fd;
+}
+
+#browse-btn {
+    color: #007bff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#file-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#file-list li {
+    background: white;
+    padding: 10px;
+    margin: 5px auto;
+    width: 50%;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+li a:hover {
+    text-decoration: underline;
+}

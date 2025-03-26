@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RiskNova</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    
+    <h1>Hello Everyone!! Welcome to <b style="color: rgb(185, 11, 11);">Risk</b>Nova!<h1>
+    
+
+    <h3>Upload Files</h3>
+
+    <div id="drop-area">
+        <p>Drag & Drop files here or <span id="browse-btn">Browse</span></p>
+        <input type="file" id="fileElem" multiple hidden>
+    </div>
+
+    <h3>Available Files</h3>
+    <ul id="file-list">
+        {% for file in files %}
+            <li><a href="{{ url_for('download_file', filename=file) }}">{{ file }}</a></li>
+        {% endfor %}
+    </ul>
+
+    <form action="/download" method="post">
+        <button type="submit" style="background-color: green; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
+            Start Extraction
+        </button>
+    </form>
+
+    <h6><i>Note: Extraction Process takes some amount of time, thank you for being patient. Result will be downloaded automatically after extraction.</i></h6>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
