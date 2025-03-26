@@ -1,48 +1,34 @@
-
 import re
 
-def extract_entities(txn):
+def extract_entities(record):
+    """
+    For structured CSV, pulls from common columns (Payer Name, etc.)
+    For unstructured text (raw_text), uses regex patterns (Sender, Receiver, etc.)
+    """
     entities = set()
 
-    if isinstance(txn, dict):
-        # Structured input: check common fields like payer, receiver, etc.
-        keys = ["Payer Name", "Receiver Name", "Sender Name", "Receiver", "Approver", "Intermediary"]
-        for key in keys:
-            value = txn.get(key) or txn.get(key.lower()) or txn.get(key.upper())
-            if value and isinstance(value, str) and len(value.split()) > 1:
-                entities.add(value.strip())
+    if isinstance(record, dict):
+        # Check standard structured keys
+        for key in ["Payer Name", "Receiver Name", "Sender", "Approver", "Intermediary", "Beneficiary Owner"]:
+            val = record.get(key)
+            # if val and isinstance(val, str) and len(val.split()) > 1:
+            #     entities.add(val.strip())
+            if val and isinstance(val, str):
+                entities.add(val.strip())
 
-        # For unstructured case with 'raw_text'
-        if "raw_text" in txn:
-            text = txn["raw_text"]
-            patterns = [
-                r"Sender(?: Name)?:\s*(.*)",
-                r"Receiver(?: Name)?:\s*(.*)",
-                r"Beneficiary Owner:\s*(.*)",
-                r"Approver:\s*(.*)",
-                r"Intermediary:\s*(.*)"
-            ]
-            for pattern in patterns:
-                matches = re.findall(pattern, text)
-                for match in matches:
-                    name = match.strip()
-                    if name and len(name.split()) > 1 and not name.lower().startswith("transaction id"):
-                        entities.add(name)
-
-    elif isinstance(txn, str):
-        text = txn
+        # Also handle unstructured case
+        raw_txt = record.get("raw_text", "")
         patterns = [
-            r"Sender(?: Name)?:\s*(.*)",
-            r"Receiver(?: Name)?:\s*(.*)",
-            r"Beneficiary Owner:\s*(.*)",
-            r"Approver:\s*(.*)",
-            r"Intermediary:\s*(.*)"
+            r"Sender(?: Name)?:\s*(.+)",
+            r"Receiver(?: Name)?:\s*(.+)",
+            r"Approver:\s*(.+)",
+            r"Intermediary:\s*(.+)",
+            r"Beneficiary Owner:\s*(.+)"
         ]
-        for pattern in patterns:
-            matches = re.findall(pattern, text)
+        for patt in patterns:
+            matches = re.findall(patt, raw_txt)
             for match in matches:
-                name = match.strip()
-                if name and len(name.split()) > 1 and not name.lower().startswith("transaction id"):
-                    entities.add(name)
+                if len(match.split()) > 1:
+                    entities.add(match.strip())
 
     return list(entities)
