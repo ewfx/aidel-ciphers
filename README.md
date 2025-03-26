@@ -32,13 +32,49 @@ A brief overview of your project and its purpose. Mention which problem statemen
 What inspired you to create this project? Describe the problem you're solving.
 
 ## ⚙️ What It Does
-Explain the key features and functionalities of your project.
+### Entity Extraction & Name Resolution
+Feature: Extracts entity names from structured and unstructured transaction data.
+Functionality: Uses Named Entity Recognition (NER) models to identify company names, people, and intermediaries. Handles name variations, abbreviations, and fuzzy matching to resolve inconsistencies.
+
+### Data Enrichment & Verification
+Feature: Enhances extracted entities with publicly available datasets.
+Functionality:Integrates with APIs like OpenCorporates, Wikidata, SEC EDGAR, and OFAC Sanctions List.
+Scrapes financial news and legal databases to gather additional risk indicators.
+
+### Risk Classification & Anomaly Detection
+Feature: Identifies fraudulent or high-risk entities based on known patterns.
+Functionality:Implements Machine Learning models (Random Forest, XGBoost, or GNNs) for anomaly detection.
+Flags shell companies, politically exposed persons (PEPs), and sanctioned entities.
+
+### Risk Scoring Mechanism
+Feature: Assigns a risk score (0 to 1) based on entity attributes and associated networks.
+Functionality:Considers factors such as ownership structure, financial transactions, and past fraud history.Uses a weighted scoring system to prioritize risk levels.
+
+### API & Output Format
+Feature: Exposes an API endpoint for external integration.
+Functionality:Provides responses in JSON/CSV format with extracted entities, risk scores, and supporting evidence.
 
 ## 🛠️ How We Built It
-Briefly outline the technologies, frameworks, and tools used in development.
+### Tech Stack & Frameworks
+Programming Languages: Python (Backend & AI/ML), JavaScript (Frontend)
+Machine Learning Frameworks: TensorFlow, PyTorch, Scikit-learn
+Natural Language Processing: NLP
+
+### Data Extraction & Processing
+Libraries: pandas, NumPy, regex, PyTorch
+
+### Entity Classification & Risk Scoring
+Models Used: Random Forest, XGBoost, GNN (Graph Neural Networks) for anomaly detection
+
+### Risk Scoring: Weighted algorithm combining entity type, ownership structure, past fraud records, and financial behavior
 
 ## 🚧 Challenges We Faced
-Describe the major technical or non-technical challenges your team encountered.
+### Data Enrichment & API Rate Limits
+Implemented caching mechanisms and parallel API requests to optimize data retrieval.
+
+### Generating Explainable Risk Scores
+AI models provided risk scores, but lacked interpretability for analysts.
+LLM-powered textual justifications to enhance transparency.
 
 ## 🏃 How to Run
 1. Clone the repository  
