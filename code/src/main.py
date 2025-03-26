@@ -52,10 +52,20 @@ def main():
 
             reason = generate_reason(entity, wikidata, ofac_note, sec_note, os_note,
                                      sentiment_summary, ddg_note, clearbit_note, wayback_note, wiki_note)
-
+            summaries_dict = {
+                "Wikidata": wikidata,
+                "OFAC": ofac_note,
+                "OpenSanctions": os_note,
+                "SEC EDGAR": sec_note,
+                #"OpenCorporates": corp_note,
+                "DuckDuckGo": ddg_note,
+                "Clearbit": clearbit_note,
+                "Wayback": wayback_note,
+                "Wikipedia": wiki_note,
+                "News": sentiment_summary
+            }
             score, conf, sources, _ = calculate_risk(
-                entity, wikidata, ofac_note, sec_note, os_note,
-                sentiment_summary, sentiment_score
+                entity, summaries_dict, sentiment_summary, sentiment_score
             )
 
             if tx_id not in txn_map:
