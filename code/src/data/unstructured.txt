@@ -1,7 +1,0 @@
-Transaction ID: TXN-2023-5A9B
-Sender: Global Horizons Consulting LLC
-Receiver: Bright Future Nonprofit Inc
-Approver: Ali Al-Mansoori
-Intermediary: Quantum Holdings Ltd
-Amount: $49,850
-Notes: Linked invoice missing. VPN from Panama detected.

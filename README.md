@@ -19,9 +19,14 @@ A brief overview of your project and its purpose. Mention which problem statemen
 ## 🎥 Demo
 🔗 [Live Demo](#) (if applicable)  
 📹 [Video Demo](#) (if applicable)  
+
 🖼️ Screenshots:
 
-![Screenshot 1](link-to-image)
+![Screenshot 1](./artifacts/arch/Screenshot_1.png)
+
+![Screenshot 1](./artifacts/arch/Screenshot_2.png)
+
+![Screenshot 1](./artifacts/arch/Screenshot_3.png)
 
 ## 💡 Inspiration
 What inspired you to create this project? Describe the problem you're solving.
@@ -38,23 +43,23 @@ Describe the major technical or non-technical challenges your team encountered.
 ## 🏃 How to Run
 1. Clone the repository  
    ```sh
-   git clone https://github.com/your-repo.git
+   git clone https://github.com/ewfx/aidel-ciphers.git
    ```
 2. Install dependencies  
    ```sh
-   npm install  # or pip install -r requirements.txt (for Python)
+   pip install -r requirements.txt (for Python)
    ```
 3. Run the project  
    ```sh
-   npm start  # or python app.py
+   python app.py
    ```
 
 ## 🏗️ Tech Stack
-- 🔹 Frontend: React / Vue / Angular
-- 🔹 Backend: Node.js / FastAPI / Django
-- 🔹 Database: PostgreSQL / Firebase
-- 🔹 Other: OpenAI API / Twilio / Stripe
+- 🔹 Frontend: React 
+- 🔹 Backend: Flask / Python
+- 🔹 Other: PyTorch API / Pandas / Numpy
 
 ## 👥 Team
-- **Your Name** - [GitHub](#) | [LinkedIn](#)
-- **Teammate 2** - [GitHub](#) | [LinkedIn](#)
+- **Ashritha Nagandla** - [GitHub](https://github.com/Ashritha-01) | [LinkedIn](#)
+- **Hyma Lakshmi Nelluri** - [GitHub](https://github.com/hyma09) | [LinkedIn](#)
+- **Tamojit Das** - [GitHub](https://github.com/tamojit2000) | [LinkedIn](https://www.linkedin.com/in/tamojit-das-ab425b228/)

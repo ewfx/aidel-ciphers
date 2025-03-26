@@ -1,10 +1,15 @@
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom, #5fcaff, #faf9f8);
     text-align: center;
     padding: 20px;
     height: 100vh;
     margin: 0;
+    background-image: url('../static/bg_img.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    color: white;
 }
 
 h1, h2 {
@@ -19,6 +24,7 @@ h1, h2 {
     width: 50%;
     margin: auto;
     cursor: pointer;
+    color: black;
 }
 
 #drop-area:hover {
